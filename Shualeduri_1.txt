@@ -1,0 +1,29 @@
+class Person:
+    def __init__(self, age, gender, pulse):
+        self.age = age
+        self.gender = gender
+        self.pulse = pulse
+
+    def __str__(self):
+        return F" ასაკი : {self.age} {self.gender}, პულსი: 85 დარტყმა/წუთში "
+
+    def life_(self):
+        return 2600000000 / self.pulse / 60 / 24 / 365
+
+    def person(self):
+        return max.
+
+    def max_heart_pulse(self):
+        if factor == "ინტენსიური":
+           max = (self.max_heart_pulse(0.8))
+        if factor == "საშუალო":
+
+
+
+pul_1 = Person(20, "f", 60)
+print(pul_1.life_())
+
+
+
+
+
